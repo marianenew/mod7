@@ -2,12 +2,16 @@ import './App.css'
 
 import Navigator from './Components/Navigator/Navigator';
 import Router from './Components/Navigator/Router';
-import Product from './screens/Product';
+import { Provider } from "react-redux";
+import store from "../src/store/store";
+
 
 function App() {
   return (
     <>
-      <Product />
+     <Provider store={store}>
+
+     </Provider>
       <Navigator />
       <Router />
     </>

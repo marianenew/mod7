@@ -12,6 +12,7 @@ const Product = () => {
         <h1>Product Inventory</h1>
         {/* Pasa los productos al componente */}
         <FiltertableProductTable products={products} />
+        
       </div>
     </>
   );
